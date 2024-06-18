@@ -1,0 +1,42 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform crash log files
+crash.log
+
+# Terraform variable override files
+*.tfvars
+*.tfvars.json
+
+# Terraform configuration directory
+.terraform/
+
+# Local .terraform directories
+**/.terraform/*
+
+# .terraformrc file
+.terraformrc
+terraform.rc
+
+# Sensitive GCP credentials file
+<path-to-service-account-key>.json
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore macOS specific files
+*.DS_Store
+
+# Ignore any other sensitive or irrelevant files
+secrets.auto.tfvars
+*.backup
+*.bak
