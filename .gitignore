@@ -14,6 +14,7 @@ crash.log
 
 # Local .terraform directories
 **/.terraform/*
+**/google-cloud-sdk/*
 
 # .terraformrc file
 .terraformrc
